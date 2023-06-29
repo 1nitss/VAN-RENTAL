@@ -1,0 +1,135 @@
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #080710 !important;
+    font-family: "Poppins", sans-serif;
+}
+form{
+    height: 520px;
+    width: 400px;
+    background-color: rgba(49, 54, 52, 0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 77%;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(2, 1, 5, 0.6);
+    padding: 35px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    
+    display: block;
+    height: 50px;
+    width: 97.5%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding-left: 15px;
+    padding-right: 1px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+button:hover{
+    box-shadow: 0 0 15px rgba(50, 50, 51, 0.6);
+    margin-top: 50px;
+    width: 101%;
+    background-color: #970707;
+    color: #dedde9;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease-in-out;
+    transition: all 500ms ease;
+}
+button{
+    margin-top: 50px;
+    width: 101%;
+    background-color: rgb(204, 25, 25);
+    color: #dedde9;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.h5-text{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.welcome{
+    height: 520px;
+    width: 600px;
+    background-color: rgb(204, 25, 25);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    right: 17%;
+    border-radius: 10px;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+    padding: 35px;
+}
+.welcome *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+img {
+    position: absolute;
+    width: 800px;
+    left: -25%;
+    top: 22%;
+}
+
+img:hover {
+    position: absolute;
+    width: 800px;
+    left: -25%;
+    top: 22%;
+    transform: scale(1.1);
+    transition: ease-in-out;
+    transition: all 500ms ease;
+}
+
+
+h2 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}

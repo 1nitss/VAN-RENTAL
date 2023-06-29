@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background: #080710;
+    font-family: 'Poppins', sans-serif !important;
+
+}
+.account-settings .user-profile {
+    margin: 0 0 1rem 0;
+    padding-top: 50%;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.account-settings .user-profile .user-avatar {
+    border-radius: 50%;
+}
+.account-settings .user-profile .user-avatar img {
+    width: 150px;
+}
+.account-settings .user-profile h5.user-name {
+    margin: 0 0 0.5rem 0;
+}
+.account-settings .user-profile h6.user-email {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #9fa8b9;
+}
+
+.form-control {
+    border: 1px solid #cfd1d8;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: .825rem;
+    background: #ffffff;
+    color: #2e323c;
+}
+
+.card {
+    color: #edf0f1;
+    background: #080710;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 1rem;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+.text-right a {
+    transition: 0.5s;
+    padding-left: 80%;
+    text-decoration: none;
+    color: #edf0f1;
+    margin-right: 5px;
+    
+}
+
+.text-right a:hover {
+    color: red;
+}
